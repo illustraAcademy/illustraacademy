@@ -2,6 +2,10 @@
     background-color: #2B2A4C;
 }
 
+.bg-color-body-element {
+    background-color: #BB9CC0;
+}
+
 .img-alignment {
     display: block;
     margin-left: auto;
@@ -10,5 +14,14 @@
 }
 
 .font-style-applied {
+    margin-top: 5rem;
     font-weight: 500;
+}
+
+.table-format {
+    margin: 2rem;
+}
+
+.text-margins {
+    margin: 1rem;
 }
