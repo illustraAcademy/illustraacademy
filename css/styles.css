@@ -1,0 +1,14 @@
+.bg-color-custom {
+    background-color: #2B2A4C;
+}
+
+.img-alignment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.font-style-applied {
+    font-weight: 500;
+}
