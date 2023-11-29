@@ -22,6 +22,44 @@
     margin: 2rem;
 }
 
+.table-center {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .text-margins {
-    margin: 1rem;
+    margin: 3rem;
+}
+
+.a-modified:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.a-modified {
+    color: #212529;
+    text-decoration: none;
+}
+
+.text-alignment {
+    text-align: center;
+}
+
+.nav-dimensions {
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.week-style {
+    border-style: solid;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.com-approach-style {
+    color: white;
+    font-style: italic;
+    text-shadow: #FC0 1px 0 10px;
 }
