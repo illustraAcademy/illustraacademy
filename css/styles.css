@@ -53,6 +53,9 @@
 }
 
 .week-style {
+    background-color: rgb(103, 114, 157, 0.4);
+    padding: 50px;
+    margin: 20px 100px;
     border-style: solid;
     font-weight: 900;
     letter-spacing: 5px;
