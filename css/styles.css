@@ -1,68 +1,246 @@
-.bg-color-custom {
-    background-color: #2B2A4C;
-}
-
-.bg-color-body-element {
-    background-color: #BB9CC0;
-}
-
-.img-alignment {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.font-style-applied {
-    margin-top: 5rem;
-    font-weight: 500;
-}
-
-.table-format {
-    margin: 2rem;
-}
-
-.table-center {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.text-margins {
-    margin: 3rem;
-}
-
-.a-modified:hover {
-    color: #212529;
-    text-decoration: none;
-}
-
-.a-modified {
-    color: #212529;
-    text-decoration: none;
-}
-
-.text-alignment {
-    text-align: center;
-}
-
-.nav-dimensions {
-    padding: 10px;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-}
-
-.week-style {
-    background-color: rgb(103, 114, 157, 0.4);
-    padding: 50px;
-    margin: 20px 100px;
-    border-style: solid;
-    font-weight: 900;
-    letter-spacing: 5px;
-}
-
-.com-approach-style {
+/*Elements*/
+h1 {
+    clear: both;
     color: white;
-    font-style: italic;
-    text-shadow: #FC0 1px 0 10px;
+    animation-name: startOfNewPageLetters;
+    animation-duration: 12s;
+}
+
+body {
+    background-color: #232D3F;
+}
+
+span {
+    color: white;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 1px) and (max-width: 1080px) {
+
+    /*Elements*/
+    a {
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 6s;
+    }
+
+    /*ID*/
+    #navigation-top {
+
+        padding-top: 40px;
+        text-align: center;
+        background-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #F3EDC8;
+        height: 75px;
+        border-radius: 15px;
+        animation-name: pulse;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    #main-image {
+        border-radius: 15px;
+        width: 200px;
+        margin: 10px;
+        left: 50%;
+        position: absolute;
+        animation-name: mainImage;
+        animation-duration: 6s;
+    }
+
+    #intro-text {
+        font-size: 1.5rem;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 12s;
+    }
+
+    #slogan-text {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 12s;
+    }
+
+    #logo {
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        width: 100px;
+        animation-name: images;
+        animation-duration: 12s;
+    }
+
+    /*Classes*/
+    .dividers {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .paragraphs {
+        color: white;
+        font-size: larger;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 12s;
+    }
+
+}
+
+@media (min-width: 1081px) {
+
+    /*Elements*/
+    a {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 6s;
+    }
+
+    /*ID*/
+
+    #navigation-top {
+        padding-top: 50px;
+        text-align: center;
+        background-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #F3EDC8;
+        height: 100px;
+        border-radius: 15px;
+        animation-name: pulse;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    #main-image {
+        border-radius: 15px;
+        width: 600px;
+        margin: 25px;
+        left: 50%;
+        position: absolute;
+        animation-name: mainImage;
+        animation-duration: 6s;
+    }
+
+    #intro-text {
+        font-size: 3rem;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 12s;
+    }
+
+    #slogan-text {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 12s;
+    }
+
+    #logo {
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        width: 250px;
+        animation-name: images;
+        animation-duration: 12s;
+    }
+
+    /*Classes*/
+
+    .dividers {
+        margin-top: 200px;
+        margin-bottom: 25px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .paragraphs {
+        color: white;
+        font-size: xx-large;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 12s;
+    }
+}
+
+/*Classes*/
+.text-containers-side {
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+/*Animations*/
+@keyframes pulse {
+    0% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #F3EDC8;
+    }
+
+    100% {
+        border-color: transparent;
+    }
+}
+
+@keyframes startOfNewPageLetters {
+    0% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@keyframes mainImage {
+    0% {
+        opacity: 0;
+        left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 50%
+    }
+}
+
+@keyframes images {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
