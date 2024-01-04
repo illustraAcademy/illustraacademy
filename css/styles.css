@@ -1,42 +1,127 @@
 /*Elements*/
 h1 {
+    font-family: 'nothing you could do', cursive;
     clear: both;
     color: white;
     animation-name: startOfNewPageLetters;
-    animation-duration: 12s;
+    animation-duration: 4s;
 }
 
 body {
-    background-color: #232D3F;
+    animation-name: background-animation;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
 }
 
 span {
     color: white;
 }
 
-a {
-    font-size: 1.5rem;
-    text-decoration: none;
+/*Classes*/
+
+.no-animation-a:hover {
+    animation-name: none;
+}
+
+.header-article {
+    text-align: center;
+}
+
+.image-reference-footer {
+    text-align: right;
     color: white;
+    font-style: italic;
+}
+
+.quote-text {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.references-source {
+    color: white;
+    font-style: italic;
+}
+
+.image-meme {
+    text-align: center;
+}
+
+.paragraphs-read {
+    color: white;
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+    animation-name: none;
+}
+
+.paragraphs-read-conversation {
+    color: white;
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+    font-style: italic;
+    animation-name: none;
+}
+
+.conversations {
+    text-align: center;
+}
+
+.meme-footer {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+    text-align: left;
+}
+
+.meme-footer-link {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+    margin: 0;
+    animation-name: none;
+    color: aquamarine;
+}
+
+.meme-footer-link:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+    margin: 0;
+    animation-name: none;
+    color: aquamarine;
 }
 
 @media (min-width: 1px) and (max-width: 1080px) {
 
     /*Elements*/
     a {
+        flex-basis: 25%;
         margin-left: 8px;
         margin-right: 8px;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
         text-decoration: none;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 6s;
+        animation-duration: 1s;
     }
 
     /*ID*/
-    #navigation-top {
+    #brand {
+        text-align: center;
+    }
 
-        padding-top: 40px;
+    #company-name {
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #navigation-top {
+        display: flex;
+        align-items: center;
         text-align: center;
         background-color: black;
         border-width: 2px;
@@ -49,44 +134,66 @@ a {
         animation-iteration-count: infinite;
     }
 
+    #flex-container {
+        display: flex;
+        gap: 10px;
+    }
+
     #main-image {
+        background-image: url("../images/1.jpg");
+        background-size: 250px;
+        margin: 15px;
         border-radius: 15px;
-        width: 200px;
-        margin: 10px;
-        left: 50%;
-        position: absolute;
+        height: 150px;
+        width: 50%;
         animation-name: mainImage;
-        animation-duration: 6s;
+        animation-duration: 4s;
     }
 
     #intro-text {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        font-family: 'Carattere', cursive;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
     #slogan-text {
-        font-style: italic;
-        font-weight: bold;
-        font-size: 1rem;
+        font-family: 'Lumanosimo', cursive;
+        font-size: 0.75rem;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
-    #logo {
+    /*Classes*/
+    .logo-left {
         border-radius: 15px;
         margin: 10px;
         float: left;
         width: 100px;
         animation-name: images;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
-    /*Classes*/
+    .logo-right {
+        border-radius: 15px;
+        margin: 10px;
+        float: right;
+        width: 100px;
+        animation-name: images;
+        animation-duration: 4s;
+    }
+
     .dividers {
-        margin-top: 25px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .dividers-border {
+        margin-top: 0px;
         margin-bottom: 25px;
         padding: 25px;
         text-align: center;
@@ -94,37 +201,88 @@ a {
 
     .text-containers-side {
         width: 50%;
-        text-align: left;
+        text-align: center;
         padding: 15px;
         margin: 10px;
     }
 
     .paragraphs {
         color: white;
+        font-family: 'Lumanosimo', cursive;
         font-size: medium;
         animation-name: startOfNewPageLetters;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
+
+    .link-inline {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .header-number {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .video-size {
+        width: 500px;
+    }
+
+    .external-image {
+        width: 450px;
+    }
 }
 
 @media (min-width: 1081px) {
 
     /*Elements*/
     a {
+        flex-basis: 25%;
         margin-left: 50px;
         margin-right: 50px;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        font-family: 'Caveat', cursive;
         text-decoration: none;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 6s;
+        animation-duration: 1s;
+    }
+
+    a:hover {
+        flex-basis: 25%;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 2rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+        animation-name: hover-animation;
+        animation-duration: 0.5s;
     }
 
     /*ID*/
 
+    #brand {
+        text-align: center;
+    }
+
+    #company-name {
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
     #navigation-top {
-        padding-top: 50px;
+        display: flex;
+        align-items: center;
         text-align: center;
         background-color: black;
         border-width: 2px;
@@ -137,45 +295,71 @@ a {
         animation-iteration-count: infinite;
     }
 
+    #flex-container {
+        display: flex;
+        gap: 10px;
+    }
+
     #main-image {
+        background-image: url("../images/1.jpg");
+        background-size: 750px;
+        margin: 15px;
         border-radius: 15px;
-        width: 600px;
-        margin: 25px;
-        left: 50%;
-        position: absolute;
+        height: 150px;
+        height: 350px;
+        width: 50%;
         animation-name: mainImage;
-        animation-duration: 6s;
+        animation-duration: 4s;
     }
 
     #intro-text {
-        font-size: 3rem;
+        font-size: 4rem;
+        font-family: 'Carattere', cursive;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
     #slogan-text {
-        font-style: italic;
+        font-family: 'Lumanosimo', cursive;
         font-weight: bold;
         font-size: 2rem;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
-    #logo {
+    /*Classes*/
+
+    .logo-left {
         border-radius: 15px;
         margin: 10px;
         float: left;
         width: 250px;
         animation-name: images;
-        animation-duration: 12s;
+        animation-duration: 4s;
     }
 
-    /*Classes*/
+    .logo-right {
+        border-radius: 15px;
+        margin: 10px;
+        float: right;
+        width: 250px;
+        animation-name: images;
+        animation-duration: 4s;
+    }
 
     .dividers {
-        margin-top: 200px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .dividers-border {
+        height: 300px;
+        border-style: solid;
+        margin-top: 0px;
         margin-bottom: 25px;
         padding: 25px;
         text-align: center;
@@ -190,15 +374,71 @@ a {
 
     .paragraphs {
         color: white;
+        font-family: 'Lumanosimo', cursive;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
-        animation-duration: 12s;
+        animation-duration: 4s;
+    }
+
+    .link-inline {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .link-inline:hover {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .header-number {
+        font-size: 5rem;
+        display: inline;
+        margin-right: 50px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .video-size {
+        width: 750px;
+    }
+
+    .external-image {
+        width: 750px;
+    }
+
+}
+
+/*Animations*/
+@keyframes background-animation {
+    0% {
+        background: #4CB9E7;
+    }
+
+    25% {
+        background: #38419D;
+    }
+
+    50% {
+        background: #596FB7;
+    }
+
+    75% {
+        background: #38419D;
+    }
+
+    100% {
+        background: #4CB9E7;
     }
 }
 
-/*Classes*/
-
-/*Animations*/
 @keyframes pulse {
     0% {
         border-color: transparent;
@@ -230,12 +470,10 @@ a {
 @keyframes mainImage {
     0% {
         opacity: 0;
-        left: -250px;
     }
 
     100% {
         opacity: 1;
-        left: 50%
     }
 }
 
@@ -251,4 +489,15 @@ a {
     100% {
         opacity: 1;
     }
+}
+
+@keyframes hover-animation {
+    0% {}
+
+    50% {
+        color: aquamarine;
+        font-size: 4rem;
+    }
+
+    100% {}
 }
