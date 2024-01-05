@@ -8,10 +8,6 @@ h1 {
     animation-duration: 4s;
 }
 
-span {
-    color: white;
-}
-
 body {
     background-color: black;
 }
@@ -116,13 +112,14 @@ body {
 
     #navigation-top {
         display: flex;
+        flex-direction: column;
         align-items: center;
         text-align: center;
         background-color: black;
         border-width: 2px;
         border-style: solid;
         border-color: #F3EDC8;
-        height: 75px;
+        height: auto;
         border-radius: 15px;
         animation-name: pulse;
         animation-duration: 8s;
@@ -135,6 +132,11 @@ body {
     }
 
     /*Classes*/
+
+    .span-style {
+        display: none;
+        color: white;
+    }
 
     .image-header-banner {
         width: 85%;
@@ -223,6 +225,10 @@ body {
     }
 
     /*Classes*/
+
+    .span-style {
+        color: white;
+    }
 
     .image-header-banner {
         width: 45%;
@@ -327,6 +333,10 @@ body {
     }
 
     /*Classes*/
+
+    .span-style {
+        color: white;
+    }
 
     .image-header-banner {
         width: 45%;
