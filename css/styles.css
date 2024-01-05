@@ -50,7 +50,8 @@ span {
 
 .paragraphs-read {
     color: white;
-    font-family: 'Lumanosimo', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
     font-size: medium;
     animation-name: none;
 }
@@ -93,7 +94,195 @@ span {
     color: aquamarine;
 }
 
-@media (min-width: 1px) and (max-width: 1080px) {
+.background-text-for-courses {
+    background-color: rgba(15, 16, 53, 0.5);
+}
+
+@media (min-width: 1px) and (max-width: 720px) {
+
+    /*Elements*/
+    a {
+        flex-basis: 25%;
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 0.5s;
+    }
+
+    /*ID*/
+
+    #body-blog {
+        background-color: black;
+        animation-name: none;
+    }
+
+    #brand {
+        text-align: center;
+    }
+
+    #company-name {
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #navigation-top {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #F3EDC8;
+        height: 75px;
+        border-radius: 15px;
+        animation-name: pulse;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    #flex-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    #main-image {
+        background-image: url("../images/1.jpg");
+        background-size: 250px;
+        margin: 15px;
+        border-radius: 15px;
+        height: 150px;
+        width: 50%;
+        animation-name: mainImage;
+        animation-duration: 4s;
+    }
+
+    #intro-text {
+        font-size: 2rem;
+        font-family: 'Carattere', cursive;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 4s;
+    }
+
+    #slogan-text {
+        font-family: 'Lumanosimo', cursive;
+        font-size: 0.75rem;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 4s;
+    }
+
+    #eng-course {
+        padding-top: 50px;
+        height: 350px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/6.jpg");
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+    }
+
+    #eng-course:hover {
+        padding-top: 50px;
+        height: 350px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/6.jpg");
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+    }
+
+    /*Classes*/
+
+    .image-header-banner {
+        width: 85%;
+    }
+
+    .image-meme-back {
+        width: 90%;
+    }
+
+    .logo-left {
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        width: 100px;
+        animation-name: images;
+        animation-duration: 4s;
+    }
+
+    .logo-right {
+        border-radius: 15px;
+        margin: 10px;
+        float: right;
+        width: 100px;
+        animation-name: images;
+        animation-duration: 4s;
+    }
+
+    .dividers {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .dividers-border {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .text-containers-side {
+        width: 50%;
+        text-align: center;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .paragraphs {
+        color: white;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 4s;
+    }
+
+
+    .link-inline {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .header-number {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .video-size {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
 
     /*Elements*/
     a {
@@ -164,6 +353,32 @@ span {
         color: white;
         animation-name: startOfNewPageLetters;
         animation-duration: 4s;
+    }
+
+    #eng-course {
+        padding-top: 50px;
+        height: 350px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/6.jpg");
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+    }
+
+    #eng-course:hover {
+        padding-top: 50px;
+        height: 350px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/6.jpg");
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
     }
 
     /*Classes*/
@@ -327,6 +542,31 @@ span {
         color: white;
         animation-name: startOfNewPageLetters;
         animation-duration: 4s;
+    }
+
+    #eng-course {
+        padding: 5%;
+        height: 350px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/6.jpg");
+        font-size: 2rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+    }
+
+    #eng-course:hover {
+        height: 350px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/6.jpg");
+        font-size: 2rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
     }
 
     /*Classes*/
