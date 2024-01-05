@@ -23,77 +23,6 @@ span {
     animation-name: none;
 }
 
-.header-article {
-    text-align: center;
-}
-
-.image-reference-footer {
-    text-align: right;
-    color: white;
-    font-style: italic;
-}
-
-.quote-text {
-    text-align: center;
-    color: white;
-    font-style: italic;
-}
-
-.references-source {
-    color: white;
-    font-style: italic;
-}
-
-.image-meme {
-    text-align: center;
-}
-
-.paragraphs-read {
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
-    font-size: medium;
-    animation-name: none;
-}
-
-.paragraphs-read-conversation {
-    color: white;
-    font-family: 'Lumanosimo', cursive;
-    font-size: medium;
-    font-style: italic;
-    animation-name: none;
-}
-
-.conversations {
-    text-align: center;
-}
-
-.meme-footer {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-size: small;
-    text-align: left;
-}
-
-.meme-footer-link {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-size: small;
-    margin: 0;
-    animation-name: none;
-    color: aquamarine;
-}
-
-.meme-footer-link:hover {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-size: small;
-    margin: 0;
-    animation-name: none;
-    color: aquamarine;
-}
-
 .background-text-for-courses {
     background-color: rgba(15, 16, 53, 0.5);
 }
@@ -112,11 +41,6 @@ span {
     }
 
     /*ID*/
-
-    #body-blog {
-        background-color: black;
-        animation-name: none;
-    }
 
     #brand {
         text-align: center;
@@ -203,14 +127,6 @@ span {
 
     /*Classes*/
 
-    .image-header-banner {
-        width: 85%;
-    }
-
-    .image-meme-back {
-        width: 90%;
-    }
-
     .logo-left {
         border-radius: 15px;
         margin: 10px;
@@ -256,28 +172,6 @@ span {
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 4s;
-    }
-
-
-    .link-inline {
-        margin: 0;
-        color: aquamarine;
-        font-family: 'Lumanosimo', cursive;
-        font-size: medium;
-        animation-name: none;
-    }
-
-    .header-number {
-        display: inline;
-        margin-right: 30px;
-    }
-
-    .video-container {
-        text-align: center;
-    }
-
-    .video-size {
-        width: 90%;
     }
 
 }
@@ -429,31 +323,6 @@ span {
         animation-duration: 4s;
     }
 
-
-    .link-inline {
-        margin: 0;
-        color: aquamarine;
-        font-family: 'Lumanosimo', cursive;
-        font-size: medium;
-        animation-name: none;
-    }
-
-    .header-number {
-        display: inline;
-        margin-right: 30px;
-    }
-
-    .video-container {
-        text-align: center;
-    }
-
-    .video-size {
-        width: 500px;
-    }
-
-    .external-image {
-        width: 450px;
-    }
 }
 
 @media (min-width: 1081px) {
@@ -620,62 +489,20 @@ span {
         animation-duration: 4s;
     }
 
-    .link-inline {
-        margin: 0;
-        color: aquamarine;
-        font-family: 'Lumanosimo', cursive;
-        font-size: medium;
-        animation-name: none;
-    }
-
-    .link-inline:hover {
-        margin: 0;
-        color: aquamarine;
-        font-family: 'Lumanosimo', cursive;
-        font-size: medium;
-        animation-name: none;
-    }
-
-    .header-number {
-        font-size: 5rem;
-        display: inline;
-        margin-right: 50px;
-    }
-
-    .video-container {
-        text-align: center;
-    }
-
-    .video-size {
-        width: 750px;
-    }
-
-    .external-image {
-        width: 750px;
-    }
-
 }
 
 /*Animations*/
 @keyframes background-animation {
     0% {
-        background: #4CB9E7;
-    }
-
-    25% {
-        background: #38419D;
+        background: #1A2735;
     }
 
     50% {
-        background: #596FB7;
-    }
-
-    75% {
-        background: #38419D;
+        background: black;
     }
 
     100% {
-        background: #4CB9E7;
+        background: #1A2735;
     }
 }
 
