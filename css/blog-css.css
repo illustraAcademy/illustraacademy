@@ -1,0 +1,477 @@
+/*Elements*/
+h1 {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    clear: both;
+    color: aqua;
+    animation-name: startOfNewPageLettersTitle;
+    animation-duration: 4s;
+}
+
+span {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+/*Classes*/
+
+.header-article {
+    text-align: center;
+}
+
+.image-reference-footer {
+    text-align: right;
+    color: white;
+    font-style: italic;
+}
+
+.quote-text {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.references-source {
+    color: white;
+    font-style: italic;
+}
+
+.image-meme {
+    text-align: center;
+}
+
+.paragraphs-read {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    animation-name: none;
+}
+
+.paragraphs-read-conversation {
+    color: white;
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+    font-style: italic;
+    animation-name: none;
+}
+
+.conversations {
+    text-align: center;
+}
+
+.meme-footer {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+    text-align: left;
+}
+
+.meme-footer-link {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+    margin: 0;
+    animation-name: none;
+    color: aquamarine;
+}
+
+.meme-footer-link:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+    margin: 0;
+    animation-name: none;
+    color: aquamarine;
+}
+
+@media (min-width: 1px) and (max-width: 720px) {
+
+    /*Elements*/
+    a {
+        flex-basis: 25%;
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 0.5s;
+    }
+
+    /*ID*/
+
+    #brand {
+        text-align: center;
+    }
+
+    #company-name {
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #navigation-top {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #F3EDC8;
+        height: 75px;
+        border-radius: 15px;
+        animation-name: pulse;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    #flex-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    /*Classes*/
+
+    .image-header-banner {
+        width: 85%;
+    }
+
+    .image-meme-back {
+        width: 90%;
+    }
+
+    .paragraphs {
+        color: white;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 4s;
+    }
+
+
+    .link-inline {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .header-number {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .video-size {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
+
+    /*Elements*/
+    a {
+        flex-basis: 25%;
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.5rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 1s;
+    }
+
+    /*ID*/
+    #brand {
+        text-align: center;
+    }
+
+    #company-name {
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #navigation-top {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #F3EDC8;
+        height: 75px;
+        border-radius: 15px;
+        animation-name: pulse;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    #flex-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    /*Classes*/
+
+    .image-header-banner {
+        width: 45%;
+    }
+
+    .image-meme-back {
+        width: 30%;
+    }
+
+    .paragraphs {
+        color: white;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 4s;
+    }
+
+
+    .link-inline {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .header-number {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .video-size {
+        width: 500px;
+    }
+
+    .external-image {
+        width: 450px;
+    }
+}
+
+@media (min-width: 1081px) {
+
+    /*Elements*/
+    a {
+        flex-basis: 25%;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 2rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 1s;
+    }
+
+    a:hover {
+        flex-basis: 25%;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 2rem;
+        font-family: 'Caveat', cursive;
+        text-decoration: none;
+        color: white;
+        animation-name: hover-animation;
+        animation-duration: 0.5s;
+    }
+
+    /*ID*/
+
+    #brand {
+        text-align: center;
+    }
+
+    #company-name {
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    #navigation-top {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #F3EDC8;
+        height: 100px;
+        border-radius: 15px;
+        animation-name: pulse;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    #flex-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    /*Classes*/
+
+    .image-header-banner {
+        width: 45%;
+    }
+
+    .image-meme-back {
+        width: 45%;
+    }
+
+    .paragraphs {
+        color: white;
+        font-family: 'Lumanosimo', cursive;
+        font-size: xx-large;
+        animation-name: startOfNewPageLetters;
+        animation-duration: 4s;
+    }
+
+    .link-inline {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .link-inline:hover {
+        margin: 0;
+        color: aquamarine;
+        font-family: 'Lumanosimo', cursive;
+        font-size: medium;
+        animation-name: none;
+    }
+
+    .header-number {
+        font-size: 5rem;
+        display: inline;
+        margin-right: 50px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .video-size {
+        width: 30%;
+    }
+
+}
+
+/*Animations*/
+@keyframes background-animation {
+    0% {
+        background: #4CB9E7;
+    }
+
+    25% {
+        background: #38419D;
+    }
+
+    50% {
+        background: #596FB7;
+    }
+
+    75% {
+        background: #38419D;
+    }
+
+    100% {
+        background: #4CB9E7;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #F3EDC8;
+    }
+
+    100% {
+        border-color: transparent;
+    }
+}
+
+@keyframes startOfNewPageLetters {
+    0% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@keyframes startOfNewPageLettersTitle {
+    0% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: aqua;
+    }
+}
+
+@keyframes mainImage {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes images {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hover-animation {
+    0% {}
+
+    50% {
+        color: aquamarine;
+        font-size: 4rem;
+    }
+
+    100% {}
+}
