@@ -54,7 +54,9 @@ span {
 
     #navigation-top {
         display: flex;
-        flex-direction: column;
+        gap: 25px;
+        flex-wrap: wrap;
+        padding: 25px;
         align-items: center;
         text-align: center;
         background-color: black;
