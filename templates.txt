@@ -1,0 +1,50 @@
+memes template
+<div class="image-meme">
+            <img src="./images/motivation/one/image-meme-three.jpg" alt>
+            <p class="image-reference-footer">reference</p>
+            <p class="meme-footer">text</p>
+</div>
+
+header template
+<div class="header-article">
+    <div>
+                <h1 class="header-number">6</h1>
+                <p style="display: inline;" class="paragraphs">Text goes here!</p>
+    </div>
+    <div>
+        <img class="image-header-banner"
+                    src="Image goes here!" alt>
+    </div>
+    <div class="image-reference-footer"><p>Text goes here!</p>
+    </div>
+</div>
+
+header with no text template
+<div class="header-article">
+    <div>
+        <img class="image-header-banner"
+                    src="Image goes here!" alt>
+    </div>
+    <div class="image-reference-footer"><p>Text goes here!</p>
+    </div>
+</div>
+
+video template
+<div class="video-container">
+    <video class="video-size" controls src="./video/video-one.mp4"
+                type="video/mp4">
+    </video>
+    <div class="image-reference-footer"><p>Text goes here!</p>
+    </div>
+</div>
+
+video meme template
+<div class="video-container">
+    <video class="video-size" controls src="./video/video-one.mp4"
+                type="video/mp4">
+    </video>
+    <div>
+    <p  class="image-reference-footer">Text goes here!</p>
+    <p class="meme-footer">text</p>
+    </div>
+</div>
