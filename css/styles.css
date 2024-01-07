@@ -4,7 +4,7 @@ h1 {
     clear: both;
     color: white;
     animation-name: startOfNewPageLetters;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 
 body {
@@ -82,7 +82,7 @@ span {
         height: 150px;
         width: 50%;
         animation-name: mainImage;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #intro-text {
@@ -90,7 +90,7 @@ span {
         font-family: 'Carattere', cursive;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #slogan-text {
@@ -98,7 +98,7 @@ span {
         font-size: 0.75rem;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #eng-course {
@@ -140,7 +140,7 @@ span {
         float: left;
         width: 100px;
         animation-name: images;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     .logo-right {
@@ -149,7 +149,7 @@ span {
         float: right;
         width: 100px;
         animation-name: images;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     .dividers {
@@ -178,7 +178,7 @@ span {
         font-family: 'Lumanosimo', cursive;
         font-size: medium;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 1s;
     }
 
 }
@@ -237,7 +237,7 @@ span {
         height: 150px;
         width: 50%;
         animation-name: mainImage;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #intro-text {
@@ -245,7 +245,7 @@ span {
         font-family: 'Carattere', cursive;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #slogan-text {
@@ -253,7 +253,7 @@ span {
         font-size: 0.75rem;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #eng-course {
@@ -294,7 +294,7 @@ span {
         float: left;
         width: 100px;
         animation-name: images;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     .logo-right {
@@ -303,7 +303,7 @@ span {
         float: right;
         width: 100px;
         animation-name: images;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     .dividers {
@@ -332,7 +332,7 @@ span {
         font-family: 'Lumanosimo', cursive;
         font-size: medium;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 1s;
     }
 
 }
@@ -405,7 +405,7 @@ span {
         height: 350px;
         width: 50%;
         animation-name: mainImage;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #intro-text {
@@ -422,7 +422,7 @@ span {
         font-size: 2rem;
         color: white;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     #eng-course {
@@ -462,7 +462,7 @@ span {
         float: left;
         width: 250px;
         animation-name: images;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     .logo-right {
@@ -471,7 +471,7 @@ span {
         float: right;
         width: 250px;
         animation-name: images;
-        animation-duration: 4s;
+        animation-duration: 2s;
     }
 
     .dividers {
@@ -502,7 +502,7 @@ span {
         font-family: 'Lumanosimo', cursive;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
-        animation-duration: 4s;
+        animation-duration: 1s;
     }
 
 }
