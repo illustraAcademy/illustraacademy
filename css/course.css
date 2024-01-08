@@ -31,6 +31,47 @@ span {
     width: 90%;
 }
 
+.table-vocab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-width: 2px 2px .5px 2px;
+    border-style: solid;
+    border-color: #F3EDC8;
+    border-radius: 15px;
+    animation-name: pulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.table-vocab-head {
+    background-color: #2D3250;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-width: 2px 2px .5px 2px;
+    border-style: solid;
+    border-color: #F3EDC8;
+    border-radius: 15px;
+    animation-name: pulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.table-head-elements {
+    flex-basis: 33%;
+    color: #DCF2F1;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+.verbs {
+    flex-basis: 33%;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
 @media (min-width: 1px) and (max-width: 720px) {
 
     /*Elements*/
@@ -62,6 +103,24 @@ span {
     }
 
     /*Classes*/
+
+    .logo-left {
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        width: 100px;
+        animation-name: images;
+        animation-duration: 2s;
+    }
+
+    .logo-right {
+        border-radius: 15px;
+        margin: 10px;
+        float: right;
+        width: 100px;
+        animation-name: images;
+        animation-duration: 2s;
+    }
 
     .navigation {
         display: flex;
@@ -142,6 +201,24 @@ span {
     }
 
     /*Classes*/
+
+    .logo-left {
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        width: 200px;
+        animation-name: images;
+        animation-duration: 2s;
+    }
+
+    .logo-right {
+        border-radius: 15px;
+        margin: 10px;
+        float: right;
+        width: 200px;
+        animation-name: images;
+        animation-duration: 2s;
+    }
 
     .navigation {
         display: flex;
@@ -232,6 +309,24 @@ span {
     }
 
     /*Classes*/
+
+    .logo-left {
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        width: 250px;
+        animation-name: images;
+        animation-duration: 2s;
+    }
+
+    .logo-right {
+        border-radius: 15px;
+        margin: 10px;
+        float: right;
+        width: 250px;
+        animation-name: images;
+        animation-duration: 2s;
+    }
 
     .navigation {
         display: flex;
@@ -349,7 +444,7 @@ span {
 
     50% {
         color: aquamarine;
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     100% {}

@@ -1,6 +1,6 @@
 memes template
 <div class="image-meme">
-            <img class="image-meme-back" src="./images/motivation/one/image-meme-three.jpg" alt>
+            <img class="image-meme-back" src="../images/motivation/one/image-meme-three.jpg" alt>
             <p class="image-reference-footer">reference</p>
             <p class="meme-footer">text</p>
 </div>
@@ -31,7 +31,7 @@ header with no text template
 
 video template
 <div class="video-container">
-    <video class="video-size" controls src="./video/video-one.mp4"
+    <video class="video-size" controls src="../video/video-one.mp4"
                 type="video/mp4">
     </video>
     <div class="image-reference-footer"><p>Text goes here!</p>
@@ -40,7 +40,7 @@ video template
 
 video meme template
 <div class="video-container">
-    <video class="video-size" controls src="./video/video-one.mp4"
+    <video class="video-size" controls src="../video/video-one.mp4"
                 type="video/mp4">
     </video>
     <div>
