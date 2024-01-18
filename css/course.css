@@ -1,20 +1,19 @@
 /*Elements*/
 h1 {
-    font-family: 'nothing you could do', cursive;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Chakra Petch', sans-serif;
     clear: both;
-    color: white;
+    color: #F5A901;
     animation-name: startOfNewPageLetters;
     animation-duration: 1s;
 }
 
 body {
-    animation-name: background-animation;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
+    background-image: url("../images/back.png");
 }
 
 span {
-    color: white;
+    color: #F5A901;
 }
 
 /*Classes*/
@@ -27,26 +26,26 @@ span {
     background-color: rgba(15, 16, 53, 0.75);
 }
 
-.table-vocab {
+.table-vocab-head {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+    justify-content: center;
     border-width: 2px 2px .5px 2px;
     border-style: solid;
-    border-color: #F3EDC8;
+    border-color: #F5A901;
     border-radius: 15px;
     animation-name: pulse;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 
-.table-vocab-head {
+.table-vocab {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #2D3250;
-    justify-content: center;
     border-width: 2px 2px .5px 2px;
     border-style: solid;
-    border-color: #F3EDC8;
+    border-color: #F5A901;
     border-radius: 15px;
     animation-name: pulse;
     animation-duration: 8s;
@@ -54,15 +53,21 @@ span {
 }
 
 .table-head-elements {
-    color: #DCF2F1;
-    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #F5A901;
     font-weight: 600;
 }
 
 .table-elements {
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #F5A901;
     font-weight: 600;
+}
+
+.shadow-for-text {
+    text-shadow: 1px 1px 2px black;
 }
 
 @media (min-width: 1px) and (max-width: 720px) {
@@ -71,9 +76,9 @@ span {
     a {
         flex-basis: 25%;
         font-size: 1.5rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
     }
@@ -85,6 +90,7 @@ span {
     }
 
     #company-name {
+        font-family: 'Caveat', cursive;
         pointer-events: none;
         font-weight: bold;
         font-size: 2rem;
@@ -140,10 +146,10 @@ span {
         gap: 25px;
         flex-wrap: wrap;
         padding: 25px;
-        background-color: black;
+        background-color: gray;
         border-width: 2px;
         border-style: solid;
-        border-color: #F3EDC8;
+        border-color: #F5A901;
         height: auto;
         border-radius: 15px;
         animation-name: pulse;
@@ -153,7 +159,7 @@ span {
 
     .span-style {
         display: none;
-        color: white;
+        color: #F5A901;
     }
 
     .dividers {
@@ -164,10 +170,11 @@ span {
     }
 
     .dividers-index {
+        border-radius: 15px;
         overflow: hidden;
         border-width: 2px;
         border-style: solid;
-        border-color: white;
+        border-color: #F5A901;
         margin-top: 0px;
         margin-bottom: 25px;
         padding: 0 25px 25px 25px;
@@ -175,7 +182,8 @@ span {
     }
 
     .paragraphs {
-        color: white;
+        text-shadow: 1px 1px 2px black;
+        color: #F5A901;
         font-family: 'Lumanosimo', cursive;
         font-size: medium;
         animation-name: startOfNewPageLetters;
@@ -183,8 +191,9 @@ span {
     }
 
     .paragraphs-spa {
-        color: #92C7CF;
-        font-family: 'Lumanosimo', cursive;
+        text-shadow: 1px 1px 2px black;
+        color: #2F8EE0;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -200,9 +209,9 @@ span {
         margin-left: 8px;
         margin-right: 8px;
         font-size: 1.5rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
     }
@@ -213,6 +222,7 @@ span {
     }
 
     #company-name {
+        font-family: 'Caveat', cursive;
         pointer-events: none;
         font-weight: bold;
         font-size: 2rem;
@@ -266,10 +276,10 @@ span {
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: black;
+        background-color: gray;
         border-width: 2px;
         border-style: solid;
-        border-color: #F3EDC8;
+        border-color: #F5A901;
         height: 75px;
         border-radius: 15px;
         animation-name: pulse;
@@ -278,7 +288,7 @@ span {
     }
 
     .span-style {
-        color: white;
+        color: #F5A901;
     }
 
     .dividers {
@@ -289,10 +299,11 @@ span {
     }
 
     .dividers-index {
+        border-radius: 15px;
         overflow: hidden;
         border-width: 3px;
         border-style: solid;
-        border-color: white;
+        border-color: #F5A901;
         margin-top: 0;
         margin-bottom: 25px;
         padding: 25px;
@@ -300,16 +311,18 @@ span {
     }
 
     .paragraphs {
-        color: white;
-        font-family: 'Lumanosimo', cursive;
+        text-shadow: 1px 1px 2px black;
+        color: #F5A901;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
     }
 
     .paragraphs-spa {
+        text-shadow: 1px 1px 2px black;
         color: #92C7CF;
-        font-family: 'Lumanosimo', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -325,9 +338,9 @@ span {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 2rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
     }
@@ -337,9 +350,9 @@ span {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 2rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: hover-animation;
         animation-duration: 0.5s;
     }
@@ -351,6 +364,7 @@ span {
     }
 
     #company-name {
+        font-family: 'Caveat', cursive;
         pointer-events: none;
         font-weight: bold;
         font-size: 3rem;
@@ -404,10 +418,10 @@ span {
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: black;
+        background-color: gray;
         border-width: 2px;
         border-style: solid;
-        border-color: #F3EDC8;
+        border-color: #F5A901;
         height: 100px;
         border-radius: 15px;
         animation-name: pulse;
@@ -416,7 +430,7 @@ span {
     }
 
     .span-style {
-        color: white;
+        color: #F5A901;
     }
 
     .dividers {
@@ -427,10 +441,11 @@ span {
     }
 
     .dividers-index {
+        border-radius: 15px;
         overflow: hidden;
         border-style: solid;
         border-width: 4px;
-        border-color: white;
+        border-color: #F5A901;
         margin-top: 25px;
         margin-bottom: 25px;
         padding: 25px;
@@ -438,16 +453,18 @@ span {
     }
 
     .paragraphs {
-        color: white;
-        font-family: 'Lumanosimo', cursive;
+        text-shadow: 1px 1px 2px black;
+        color: #F5A901;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
     }
 
     .paragraphs-spa {
+        text-shadow: 1px 1px 2px black;
         color: #92C7CF;
-        font-family: 'Lumanosimo', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -476,7 +493,7 @@ span {
     }
 
     50% {
-        border-color: #F3EDC8;
+        border-color: #F5A901;
     }
 
     100% {
@@ -494,7 +511,7 @@ span {
     }
 
     100% {
-        color: white;
+        color: #F5A901;
     }
 }
 
@@ -523,12 +540,16 @@ span {
 }
 
 @keyframes hover-animation {
-    0% {}
+    0% {
+        color: #F5A901;
+    }
 
     50% {
-        color: aquamarine;
+        color: #F5A901;
         font-size: 2.5rem;
     }
 
-    100% {}
+    100% {
+        color: #F5A901;
+    }
 }

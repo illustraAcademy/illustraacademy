@@ -97,6 +97,7 @@ body {
     }
 
     #company-name {
+        color: #F5A901;
         pointer-events: none;
         font-weight: bold;
         font-size: 2rem;
@@ -201,6 +202,7 @@ body {
     }
 
     #company-name {
+        color: #F5A901;
         pointer-events: none;
         font-weight: bold;
         font-size: 2rem;
@@ -316,6 +318,7 @@ body {
     }
 
     #company-name {
+        color: #F5A901;
         pointer-events: none;
         font-weight: bold;
         font-size: 3rem;

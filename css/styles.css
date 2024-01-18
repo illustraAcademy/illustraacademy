@@ -1,16 +1,15 @@
 /*Elements*/
 h1 {
-    font-family: 'nothing you could do', cursive;
+    font-family: 'Chakra Petch', sans-serif;
     clear: both;
-    color: white;
+    color: #F5A901;
     animation-name: startOfNewPageLetters;
     animation-duration: 1s;
 }
 
 body {
-    animation-name: background-animation;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
+    background-image: url("../images/back.png");
+
 }
 
 span {
@@ -27,15 +26,19 @@ span {
     background-color: rgba(15, 16, 53, 0.75);
 }
 
+.shadow-for-text {
+    text-shadow: 1px 1px 2px black;
+}
+
 @media (min-width: 1px) and (max-width: 720px) {
 
     /*Elements*/
     a {
         flex-basis: 25%;
         font-size: 1.5rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
     }
@@ -47,6 +50,7 @@ span {
     }
 
     #company-name {
+        font-family: 'Caveat', cursive;
         pointer-events: none;
         font-weight: bold;
         font-size: 2rem;
@@ -58,10 +62,10 @@ span {
         gap: 25px;
         flex-wrap: wrap;
         padding: 25px;
-        background-color: black;
+        background-color: gray;
         border-width: 2px;
         border-style: solid;
-        border-color: #F3EDC8;
+        border-color: #F5A901;
         height: auto;
         border-radius: 15px;
         animation-name: pulse;
@@ -88,15 +92,15 @@ span {
     #intro-text {
         font-size: 2rem;
         font-family: 'Carattere', cursive;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 2s;
     }
 
     #slogan-text {
-        font-family: 'Lumanosimo', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: 0.75rem;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 2s;
     }
@@ -105,7 +109,7 @@ span {
 
     .span-style {
         display: none;
-        color: white;
+        color: #F5A901;
     }
 
     .logo-left {
@@ -148,8 +152,9 @@ span {
     }
 
     .paragraphs {
-        color: white;
-        font-family: 'Lumanosimo', cursive;
+        text-shadow: 1px 1px 2px black;
+        color: #F5A901;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
@@ -167,7 +172,7 @@ span {
         font-size: 1.5rem;
         font-family: 'Caveat', cursive;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
     }
@@ -178,6 +183,7 @@ span {
     }
 
     #company-name {
+        font-family: 'Caveat', cursive;
         pointer-events: none;
         font-weight: bold;
         font-size: 2rem;
@@ -187,10 +193,10 @@ span {
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: black;
+        background-color: gray;
         border-width: 2px;
         border-style: solid;
-        border-color: #F3EDC8;
+        border-color: #F5A901;
         height: 75px;
         border-radius: 15px;
         animation-name: pulse;
@@ -217,49 +223,23 @@ span {
     #intro-text {
         font-size: 2rem;
         font-family: 'Carattere', cursive;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 2s;
     }
 
     #slogan-text {
-        font-family: 'Lumanosimo', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: 0.75rem;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 2s;
-    }
-
-    #eng-course {
-        padding-top: 50px;
-        height: 350px;
-        text-align: center;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url("../images/6.jpg");
-        font-size: 1.5rem;
-        font-family: 'Caveat', cursive;
-        text-decoration: none;
-        color: white;
-    }
-
-    #eng-course:hover {
-        padding-top: 50px;
-        height: 350px;
-        text-align: center;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url("../images/6.jpg");
-        font-size: 1.5rem;
-        font-family: 'Caveat', cursive;
-        text-decoration: none;
-        color: white;
     }
 
     /*Classes*/
 
     .span-style {
-        color: white;
+        color: #F5A901;
     }
 
     .logo-left {
@@ -302,8 +282,9 @@ span {
     }
 
     .paragraphs {
-        color: white;
-        font-family: 'Lumanosimo', cursive;
+        text-shadow: 1px 1px 2px black;
+        color: #F5A901;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
@@ -319,9 +300,9 @@ span {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 2rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
     }
@@ -331,9 +312,9 @@ span {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 2rem;
-        font-family: 'Caveat', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
         animation-name: hover-animation;
         animation-duration: 0.5s;
     }
@@ -345,6 +326,7 @@ span {
     }
 
     #company-name {
+        font-family: 'Caveat', cursive;
         pointer-events: none;
         font-weight: bold;
         font-size: 3rem;
@@ -354,7 +336,7 @@ span {
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: black;
+        background-color: gray;
         border-width: 2px;
         border-style: solid;
         border-color: #F3EDC8;
@@ -385,16 +367,16 @@ span {
     #intro-text {
         font-size: 4rem;
         font-family: 'Carattere', cursive;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 4s;
     }
 
     #slogan-text {
-        font-family: 'Lumanosimo', cursive;
+        font-family: 'Chakra Petch', sans-serif;
         font-weight: bold;
         font-size: 2rem;
-        color: white;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 2s;
     }
@@ -409,7 +391,7 @@ span {
         font-size: 2rem;
         font-family: 'Caveat', cursive;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
     }
 
     #eng-course:hover {
@@ -421,13 +403,13 @@ span {
         font-size: 2rem;
         font-family: 'Caveat', cursive;
         text-decoration: none;
-        color: white;
+        color: #F5A901;
     }
 
     /*Classes*/
 
     .span-style {
-        color: white;
+        color: #F5A901;
     }
 
     .logo-left {
@@ -457,6 +439,7 @@ span {
 
     .dividers-border {
         height: 300px;
+        border-radius: 15px;
         border-style: solid;
         margin-top: 0px;
         margin-bottom: 25px;
@@ -472,8 +455,9 @@ span {
     }
 
     .paragraphs {
-        color: white;
-        font-family: 'Lumanosimo', cursive;
+        text-shadow: 1px 1px 2px black;
+        color: #F5A901;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
@@ -502,7 +486,7 @@ span {
     }
 
     50% {
-        border-color: #F3EDC8;
+        border-color: #F5A901;
     }
 
     100% {
@@ -520,7 +504,7 @@ span {
     }
 
     100% {
-        color: white;
+        color: #F5A901;
     }
 }
 
@@ -549,12 +533,16 @@ span {
 }
 
 @keyframes hover-animation {
-    0% {}
+    0% {
+        color: #F5A901;
+    }
 
     50% {
-        color: aquamarine;
+        color: #F5A901;
         font-size: 2.5rem;
     }
 
-    100% {}
+    100% {
+        color: #F5A901;
+    }
 }
