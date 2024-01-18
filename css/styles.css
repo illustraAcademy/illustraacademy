@@ -152,7 +152,7 @@ span {
     }
 
     .paragraphs {
-        text-shadow: 1px 1px 2px #F5A901;
+        text-shadow: 1px 1px 20px #F5A901;
         color: black;
         font-weight: bold;
         font-family: 'Chakra Petch', sans-serif;
@@ -283,7 +283,7 @@ span {
     }
 
     .paragraphs {
-        text-shadow: 1px 1px 2px #F5A901;
+        text-shadow: 1px 1px 20px #F5A901;
         color: black;
         font-weight: bold;
         font-family: 'Chakra Petch', sans-serif;
@@ -457,7 +457,7 @@ span {
     }
 
     .paragraphs {
-        text-shadow: 1px 1px 2px #F5A901;
+        text-shadow: 1px 1px 20px #F5A901;
         color: black;
         font-weight: bold;
         font-family: 'Chakra Petch', sans-serif;
