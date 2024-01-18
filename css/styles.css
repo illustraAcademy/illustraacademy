@@ -152,8 +152,9 @@ span {
     }
 
     .paragraphs {
-        text-shadow: 1px 1px 2px black;
-        color: #F5A901;
+        text-shadow: 1px 1px 2px #F5A901;
+        color: black;
+        font-weight: bold;
         font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
@@ -282,8 +283,9 @@ span {
     }
 
     .paragraphs {
-        text-shadow: 1px 1px 2px black;
-        color: #F5A901;
+        text-shadow: 1px 1px 2px #F5A901;
+        color: black;
+        font-weight: bold;
         font-family: 'Chakra Petch', sans-serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
@@ -455,8 +457,9 @@ span {
     }
 
     .paragraphs {
-        text-shadow: 1px 1px 2px black;
-        color: #F5A901;
+        text-shadow: 1px 1px 2px #F5A901;
+        color: black;
+        font-weight: bold;
         font-family: 'Chakra Petch', sans-serif;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
