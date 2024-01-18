@@ -9,7 +9,9 @@ h1 {
 }
 
 body {
-    background-image: url("../images/back.png");
+    animation: background-animation;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
 }
 
 span {
@@ -481,15 +483,18 @@ span {
 /*Animations*/
 @keyframes background-animation {
     0% {
-        background: #1A2735;
+        background-image: url("../images/back.png");
+        background-position: top;
     }
 
     50% {
-        background: black;
+        background-image: url("../images/back.png");
+        background-position: left;
     }
 
     100% {
-        background: #1A2735;
+        background-image: url("../images/back.png");
+        background-position: top;
     }
 }
 
