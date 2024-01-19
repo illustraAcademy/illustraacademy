@@ -1,7 +1,7 @@
 /*Elements*/
 h1 {
     text-shadow: 1px 1px 2px black;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Noto Serif', serif;
     clear: both;
     color: #F5A901;
     animation-name: startOfNewPageLetters;
@@ -56,14 +56,14 @@ span {
 
 .table-head-elements {
     text-shadow: 1px 1px 2px black;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Noto Serif', serif;
     color: #F5A901;
     font-weight: 600;
 }
 
 .table-elements {
     text-shadow: 1px 1px 2px black;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Noto Serif', serif;
     color: #F5A901;
     font-weight: 600;
 }
@@ -78,7 +78,7 @@ span {
     a {
         flex-basis: 25%;
         font-size: 1.5rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         text-decoration: none;
         color: #F5A901;
         animation-name: startOfNewPageLetters;
@@ -187,7 +187,7 @@ span {
         text-shadow: 1px 1px 20px #F5A901;
         color: black;
         font-weight: bold;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -197,7 +197,7 @@ span {
         text-shadow: 1px 1px 20px #2F8EE0;
         color: black;
         font-weight: bold;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -213,7 +213,7 @@ span {
         margin-left: 8px;
         margin-right: 8px;
         font-size: 1.5rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         text-decoration: none;
         color: #F5A901;
         animation-name: startOfNewPageLetters;
@@ -318,7 +318,7 @@ span {
         text-shadow: 1px 1px 20px #F5A901;
         color: black;
         font-weight: bold;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -328,7 +328,7 @@ span {
         text-shadow: 1px 1px 20px #2F8EE0;
         color: black;
         font-weight: bold;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: medium;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -344,7 +344,7 @@ span {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 2rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         text-decoration: none;
         color: #F5A901;
         animation-name: startOfNewPageLetters;
@@ -356,7 +356,7 @@ span {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 2rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         text-decoration: none;
         color: #F5A901;
         animation-name: hover-animation;
@@ -462,7 +462,7 @@ span {
         text-shadow: 1px 1px 20px #F5A901;
         color: black;
         font-weight: bold;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;
@@ -472,7 +472,7 @@ span {
         text-shadow: 1px 1px 20px #2F8EE0;
         color: black;
         font-weight: bold;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: xx-large;
         animation-name: startOfNewPageLetters;
         animation-duration: 0.5s;

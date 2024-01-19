@@ -1,13 +1,4 @@
 /*Elements*/
-h1 {
-    text-align: center;
-    font-family: 'Titillium Web', sans-serif;
-    clear: both;
-    color: aqua;
-    animation-name: startOfNewPageLettersTitle;
-    animation-duration: 4s;
-}
-
 body {
     background-color: black;
 }
@@ -80,6 +71,16 @@ body {
 @media (min-width: 1px) and (max-width: 720px) {
 
     /*Elements*/
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        clear: both;
+        color: aqua;
+        animation-name: startOfNewPageLettersTitle;
+        animation-duration: 4s;
+    }
+
     a {
         flex-basis: 25%;
         font-size: 1.5rem;
@@ -153,7 +154,7 @@ body {
         color: white;
         font-family: 'Titillium Web', sans-serif;
         font-weight: 600;
-        font-size: medium;
+        font-size: 20px;
         animation-name: none;
     }
 
@@ -162,7 +163,7 @@ body {
         margin: 0;
         color: aquamarine;
         font-family: 'Titillium Web', sans-serif;
-        font-size: medium;
+        font-size: 20px;
         animation-name: none;
     }
 
@@ -184,6 +185,16 @@ body {
 @media (min-width: 721px) and (max-width: 1080px) {
 
     /*Elements*/
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        clear: both;
+        color: aqua;
+        animation-name: startOfNewPageLettersTitle;
+        animation-duration: 4s;
+    }
+
     a {
         flex-basis: 25%;
         margin-left: 8px;
@@ -245,7 +256,7 @@ body {
     .paragraphs {
         color: white;
         font-family: 'Lumanosimo', cursive;
-        font-size: medium;
+        font-size: 35px;
         animation-name: startOfNewPageLetters;
         animation-duration: 4s;
     }
@@ -254,7 +265,7 @@ body {
         color: white;
         font-family: 'Titillium Web', sans-serif;
         font-weight: 600;
-        font-size: large;
+        font-size: 25px;
         animation-name: none;
     }
 
@@ -262,7 +273,7 @@ body {
         margin: 0;
         color: aquamarine;
         font-family: 'Titillium Web', sans-serif;
-        font-size: large;
+        font-size: 25px;
         animation-name: none;
     }
 
@@ -370,7 +381,7 @@ body {
         color: white;
         font-family: 'Titillium Web', sans-serif;
         font-weight: 600;
-        font-size: large;
+        font-size: 30px;
         animation-name: none;
     }
 
@@ -378,7 +389,7 @@ body {
         margin: 0;
         color: aquamarine;
         font-family: 'Titillium Web', sans-serif;
-        font-size: large;
+        font-size: 30px;
         animation-name: none;
     }
 
@@ -386,7 +397,7 @@ body {
         margin: 0;
         color: aquamarine;
         font-family: 'Titillium Web', sans-serif;
-        font-size: large;
+        font-size: 30px;
         animation-name: none;
     }
 
