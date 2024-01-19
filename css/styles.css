@@ -177,6 +177,7 @@ span {
         font-size: 1.5rem;
         font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
     }
@@ -311,6 +312,7 @@ span {
         font-size: 2rem;
         font-family: 'Chakra Petch', sans-serif;
         text-decoration: none;
+        color: #F5A901;
         animation-name: startOfNewPageLetters;
         animation-duration: 1s;
     }
