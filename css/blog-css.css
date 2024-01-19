@@ -76,7 +76,7 @@ body {
         text-align: center;
         font-family: 'Titillium Web', sans-serif;
         clear: both;
-        color: aqua;
+        color: white;
         animation-name: startOfNewPageLettersTitle;
         animation-duration: 4s;
     }
@@ -190,7 +190,7 @@ body {
         text-align: center;
         font-family: 'Titillium Web', sans-serif;
         clear: both;
-        color: aqua;
+        color: white;
         animation-name: startOfNewPageLettersTitle;
         animation-duration: 4s;
     }
@@ -298,6 +298,16 @@ body {
 @media (min-width: 1081px) {
 
     /*Elements*/
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        clear: both;
+        color: white;
+        animation-name: startOfNewPageLettersTitle;
+        animation-duration: 4s;
+    }
+
     a {
         flex-basis: 25%;
         margin-left: 50px;
@@ -478,7 +488,7 @@ body {
     }
 
     100% {
-        color: aqua;
+        color: white;
     }
 }
 
