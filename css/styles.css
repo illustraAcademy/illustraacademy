@@ -139,6 +139,7 @@ span {
     }
 
     .dividers-border {
+        overflow: hidden;
         border-style: solid;
         border-radius: 15px;
         border-color: #F5A901;
@@ -447,6 +448,7 @@ span {
     }
 
     .dividers-border {
+        overflow: hidden;
         height: 300px;
         border-radius: 15px;
         border-style: solid;
